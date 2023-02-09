@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 183, 5, 0.25) 0%,
+    rgba(217, 121, 4, 0.5) 56.77%,
+    rgba(191, 38, 4, 0.75) 100%
+  );
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.header {
+    background-color: #cf1c1c;
+    height: 4rem;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+
+.icon-menu {
+  margin: 0.9rem;
+  width: 30px;
+  height: 30px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0.5rem;
+}
