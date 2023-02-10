@@ -3,36 +3,68 @@
   margin: 0;
 }
 
+
 body {
   background: linear-gradient(180deg,
       rgba(242, 183, 5, 0.25) 0%,
       rgba(217, 121, 4, 0.5) 56.77%,
       rgba(191, 38, 4, 0.75) 100%);
   mix-blend-mode: normal;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .header {
-  grid-column: 1/4;
+  /* grid-column: 1/4; */
   background-color: #D97904;
   height: 5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
 }
 
+.dropdown {
+    width: 30px;
+    height: 20px;
+}
 
-.icon-menu {
-  grid-column: 1/2;
-  
-  width: 30px;
-  height: 30px;
+.dropdown:hover  .menu-hidden{
+    display: grid;
+}
+
+/* botão principal */
+
+#menu {
+    width: 30px;
+    height: 20px;
+}
+
+.menu div{
+    width: 30px;
+    height: 4px;
+    background: #000 none repeat scroll 0% 0%;
+    margin: 3px;
+}
+
+/* botões escondidos */
+
+.menu-hidden {
+    display: none;
+    justify-content: center;
+    position: absolute;
+    background-color: #BF2604;
+    min-width: 45px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-hidden a:hover {
+    background-color: #f06c4e;
 }
 
 .logo {
@@ -43,6 +75,20 @@ body {
   align-items: center;
 }
 
+.mainBody{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 #test {
   grid-column: 2/3;
+  margin-bottom: 2rem;
+}
+
+.about {
+  grid-column: 2/3;
+  padding-top: 2rem;
+  background: url('./assets/fundoLorem.jpeg');
+  text-align: center;
+  line-height: 2rem;
 }
