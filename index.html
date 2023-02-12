@@ -5,106 +5,73 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="styleTes.css" />
+  <link rel="stylesheet" href="style.css">
   <title>Menu - Pratinho</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="dropdown">
-      <div class="menu" id="menu">
-          <div></div>
-          <div></div>
-          <div></div>
+  <div>
+    <form id="tamanhoPrato">
+      <legend>Tamanho dos Pratos:</legend>
+  
+      <div>
+        <input type="checkbox" id="pratoGrande" name="tamanho" value="Prato Grande">
+        <label for="pratoGrande">Prato Grande</label>
       </div>
-      <div class="menu-hidden">
-          <a href="">Link 1</a>
-          <a href="">Link 2</a>
+  
+      <div>
+        <input type="checkbox" id="pratoMedio" name="tamanho" value="Prato Médio">
+        <label for="pratoMedio">Prato Médio</label>
       </div>
-</div>
 
-    <img src="./assets/Pratinho_png.png" alt="Logo" class="logo" />
-  </header>
+      <div>
+        <input type="checkbox" id="pratoPequeno" name="tamanho" value="Prato Pequeno">
+        <label for="pratoPequeno">Prato Pequeno</label>
+      </div>
+  </form>
 
-  <main class="mainBody">
-    <div id="test">
-      <div class="div-slider">
-        <ul class="slides-front">
-          <input type="radio" name="radio-btn" id="img-1" checked="">
-          <li class="slide-container">
-             <div class="slide">
-               <img src="./assets/img1.png">
-             </div>
-             <div class="nav">
-               <label for="img-5" class="prev">‹</label>
-               <label for="img-2" class="next">›</label>
-             </div>
-          </li>
-      
-          <input type="radio" name="radio-btn" id="img-2">
-          <li class="slide-container">
-              <div class="slide">
-                <img src="./assets/img2.png">
-              </div>
-          <div class="nav">
-            <label for="img-1" class="prev">‹</label>
-            <label for="img-3" class="next">›</label>
-          </div>
-          </li>
-      
-          <input type="radio" name="radio-btn" id="img-3">
-          <li class="slide-container">
-              <div class="slide">
-                <img src="./assets/img3.png">
-              </div>
-          <div class="nav">
-            <label for="img-2" class="prev">‹</label>
-            <label for="img-4" class="next">›</label>
-          </div>
-          </li>
-  
-          <input type="radio" name="radio-btn" id="img-4">
-          <li class="slide-container">
-              <div class="slide">
-                <img src="./assets/img4.png">
-              </div>
-          <div class="nav">
-            <label for="img-3" class="prev">‹</label>
-            <label for="img-5" class="next">›</label>
-          </div>
-          </li>
-  
-          <input type="radio" name="radio-btn" id="img-5">
-          <li class="slide-container">
-              <div class="slide">
-                <img src="./assets/img5.png">
-              </div>
-          <div class="nav">
-            <label for="img-4" class="prev">‹</label>
-            <label for="img-1" class="next">›</label>
-          </div>
-          </li>
-      
-          <li class="nav-dots">
-            <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-            <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-            <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-            <label for="img-4" class="nav-dot" id="img-dot-4"></label>
-            <label for="img-5" class="nav-dot" id="img-dot-5"></label>
-          </li>
-        </ul>
-      </div>
+  <form id="acompanhamento">
+    <legend>Acompanhamento:</legend>
+
+    <div>
+      <input type="checkbox" id="arroz" name="acompanhamento" value="Arroz">
+      <label for="arroz">Arroz</label>
     </div>
-  
-    <div class="about">
-      <h1>SOBRE</h1>
-      <div class="loremTest">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae pariatur cumque ea hic cum? Soluta harum laudantium reprehenderit. Nobis quaerat ipsum voluptates optio quae. Eveniet, possimus impedit dolores voluptate doloribus non nulla aliquam culpa vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nobis reiciendis. Quod perferendis pariatur in reprehenderit asperiores dolor molestiae eaque et fugiat error? Totam impedit est molestiae. Recusandae, praesentium aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur adipisci pariatur perspiciatis odit cum distinctio aliquam dolore doloremque, nobis alias provident, ipsam repudiandae laudantium deserunt praesentium culpa minus blanditiis.
-      </div>
+
+    <div>
+      <input type="checkbox" id="baiao" name="acompanhamento" value="Baião">
+      <label for="baiao">Baião</label>
     </div>
-  </main>
-  <footer>rodapé</footer>
+
+    <div>
+      <input type="checkbox" id="arrozAAgrega" name="acompanhamento" value="Arroz à Grega">
+      <label for="arrozAAgrega">Arroz à Grega</label>
+    </div>
+</form>
+
+<form id="mistura">
+  <legend>Mistura:</legend>
+
+  <div>
+    <input type="checkbox" id="vatapa" name="mistura" value="Vatapá">
+    <label for="vatapa">Vatapá</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="cremeDeGalinha" name="mistura" value="Creme de Galinha">
+    <label for="cremeDeGalinha">Creme de Galinha</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="panelada" name="mistura" value="Panelada">
+    <label for="panelada">Panelada</label>
+  </div>
+</form>
+
+<input type="button" id="mostrarEscolha" value="exibir as escolhas">
+
+<p id="escolhas"></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
