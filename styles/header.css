@@ -1,0 +1,15 @@
+.header {
+    background-color: #ffdc73;
+    height: 7rem;
+    display: flex;
+}
+
+.icon-menu {
+    display: none;
+}
+
+.logo {
+    width: 100px;
+    right: 100px;
+    margin-left: 40%;
+}

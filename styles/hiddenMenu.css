@@ -1,0 +1,49 @@
+.dropdown {
+    width: 30px;
+    height: 20px;
+}
+
+.dropdown:hover  .menu-hidden{
+    display: grid;
+}
+
+/* botão principal */
+
+#menu {
+  position: relative;
+    width: 30px;
+    height: 20px;
+    left: 30px;
+    top: 20px;
+}
+
+.menu div{
+    width: 30px;
+    height: 4px;
+    background: #000 none repeat scroll 0% 0%;
+    margin: 3px;
+}
+
+/* botões escondidos */
+
+.menu-hidden {
+    display: none;
+    justify-content: center;
+    position: absolute;
+    left: 60px;
+    background-color: #BF2604;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+}
+
+.menu-hidden a {
+    font-size: 100%;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+}
+
+.menu-hidden a:hover {
+    background-color: #f06c4e;
+}
