@@ -8,9 +8,9 @@ Estamos localizados no Centro da cidade, para proporcionar o melhor da região p
 >Como montar o seu pratim!
 
 Selecione um dos tamanhos e adicione de acordo com o explicado abaixo:
-Pratim P: pode adicionar uma mistura.
-Pratim M: pode adicionar até duas misturas.
-Pratim G: pode adicionar até três misturas.
+* Pratim P: pode adicionar uma mistura.
+* Pratim M: pode adicionar até duas misturas.
+* Pratim G: pode adicionar até três misturas.
 
 >Rodapé
 
