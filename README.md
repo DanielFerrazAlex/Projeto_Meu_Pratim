@@ -1,9 +1,6 @@
 >Sobre nós
 
-Meu Pratim foi idealizado para ter o sabor de casa fora de casa. 
-Passe bons momentos com seus amigos, ou com aquela pessoa especial, no Meu Pratim.
-Buscamos transmitir a melhor experiência com comidas típas e caseiras que te lembram a infância quando frequentava festas típicas.
-Estamos localizados no Centro da cidade, para proporcionar o melhor da região para você. Mas se preferir, pode pedir no conforto da sua casa que chegamos até você.
+  Meu Pratim foi idealizado para ter o sabor de casa fora de casa. Passe bons momentos com seus amigos, ou com aquela pessoa especial, no Meu Pratim. Buscamos transmitir a melhor experiência com comidas típas e caseiras que te lembram a infância quando frequentava festas típicas. Estamos localizados no Centro da cidade, para proporcionar o melhor da região para você. Mas se preferir, pode pedir no conforto da sua casa que chegamos até você.
 
 >Como montar o seu pratim!
 
