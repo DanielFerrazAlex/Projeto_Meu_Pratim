@@ -4,9 +4,73 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="landingPage.css">
+  <link rel="stylesheet" href="cadastro.css">
   <title>Document</title>
 </head>
 <body>
-  <h1>Deu Certo O redirecionamento</h1>
+  <header class="header">
+    <img src="./assets/logo.svg" alt="Logo" class="logo" />
+    <div class="dropdown">
+      <div class="menu" id="menu">
+        <img class="menu" src="./assets/menu.svg" alt="menu">
+      </div>
+      <nav class="menu-hidden">
+        <a href="./index.html">Início</a>
+        <a href="./pedido.html">Pedidos</a>
+        <a href="">Cadastro</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="divform">
+      <form action="" method="get">
+        <div class="divcadastro"><h2>Cadastro</h2></div>
+        <div class="divnome"><label for="">Nome:</label>
+          <input type="text" name="" id="">
+        </div>
+        <div class="divemail"><label for="">E-mail:</label>
+          <input type="text" name="" id="">
+        </div>
+        <div class="divconfemail"><label for="">Confirmar E-mail:</label>
+          <input type="text" name="" id="">
+        </div>
+        <div class="divdtnas"><label for="">Data de Nascimento:</label>
+          <input type="date" name="" id="">
+        </div>
+        <div class="divgen"><label for="">Gênero:</label><br>
+          <input type="radio" name="gen" id="m" value="m">
+          <label for="m">Masculino</label>
+          <input type="radio" name="gen" id="f" value="f">
+          <label for="f">Feminino</label>
+        </div>
+        <div class="divcel"><label for="">Celular:</label><br>
+          <input class="ddd" type="text" name="DDD" maxlength="2">
+          <input type="text" name="Cel" maxlength="9">
+        </div>
+        <div class="senha"><label for="">Senha:</label>
+          <input type="text" name="" id="">
+        </div>
+        <div class="senhaconf"><label for="">Confirmar Senha:</label>
+          <input type="text" name="" id="">
+        </div>
+        <div class="endereco"><label for="">Endereço:</label>
+          <input type="text" name="" id="">
+        </div>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="imagensRodape">
+      <img class="whatzaapRd icon" src="./assets/whatsapp.svg" alt="wpp">
+      <img class="faceRd icon" src="./assets/facebook.svg" alt="facebook">
+      <img class="instaRd icon" src="./assets/instagram.svg" alt="instagram">
+      <p>Copyright Flor do Campo - 2023</p>
+    </div>
+  </footer>
 </body>
 </html>

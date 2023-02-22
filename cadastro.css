@@ -1,0 +1,90 @@
+main {
+    display: flex;
+    height: 445px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divform {
+    top: 160px;
+    display: flex;
+    position: absolute;
+}
+
+form {
+    height: 320px;
+    width: 680px;
+}
+
+.divcadastro {
+    top: 15px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.divnome {
+    top: 45px;
+    width: 675px;
+    display: inline-grid;
+    position: absolute;
+}
+
+.divemail {
+    top: 90px;
+    width: 325px;
+    display: inline-grid;
+    position: absolute;
+}
+
+.divconfemail {
+    top: 90px;
+    left: 350px;
+    width: 325px;
+    display: inline-grid;
+    position: absolute;
+}
+
+.divdtnas {
+    top: 135px;
+    display: inline-grid;
+    position: absolute;
+}
+
+.divgen {
+    top: 135px;
+    left: 230px;
+    position: absolute;
+}
+
+.divcel {
+    top: 135px;
+    left: 478px;
+    position: absolute;
+}
+
+.ddd {
+    width: 15px;
+}
+
+.senha {
+    top: 185px;
+    width: 325px;
+    display: inline-grid;
+    position: absolute;
+}
+
+.senhaconf {
+    top: 185px;
+    left: 350px;
+    width: 325px;
+    display: inline-grid;
+    position: absolute;
+}
+
+.endereco {
+    top: 230px;
+    width: 675px;
+    display: inline-grid;
+    position: absolute;
+}
