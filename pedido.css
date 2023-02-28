@@ -34,10 +34,10 @@ body {
 
 .dropdown {
   position: absolute;
-  display: flex;
-  width: 2rem;
-  height: 2rem;
-  left: 2rem;
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    left: 2rem;
 }
 
 .dropdown:hover .menu-hidden {
@@ -48,14 +48,12 @@ body {
   padding: 3rem;
   height: 3rem;
   font-size: 18px;
-  left: .2rem;
   top: .5rem;
 }
 
 .menu {
   width: 2rem;
   height: 2rem;
-  left: 2rem;
 }
 
 
@@ -63,22 +61,16 @@ body {
   display: none;
   justify-content: center;
   align-items: center;
-  position: relative;
   min-width: 3.1rem;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 2rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.527);
   z-index: 3;
 }
 
 .menu-hidden a {
   margin: .5rem;
-  text-align: center;
   text-transform: uppercase;
-}
-
-.menu-hidden a:hover {
-  background-color: #f06c4e;
-  width: 150%;
-  border-radius: .2rem;
+  color: #000;
 }
 
 .logo {
@@ -376,22 +368,20 @@ input#img-5:checked~.nav-dots label#img-dot-5 {
     display: none;
     justify-content: center;
     align-items: center;
-    position: relative;
     min-width: 3.1rem;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 3;
   }
 
-  .menu-hidden a {
+  .menu-link {
     margin: .5rem;
     text-align: center;
     text-transform: uppercase;
   }
 
-  .menu-hidden a:hover {
-    background-color: #f06c4e;
-    width: 150%;
-    border-radius: .2rem;
+  .menu-link:hover {
+    font-size:1.2em;
+    -webkit-text-stroke: 2px #BF2604; 
   }
 
   .logo {
@@ -539,7 +529,7 @@ input#img-5:checked~.nav-dots label#img-dot-5 {
 
   .nav-dots .nav-dot:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #fd3f26;
   }
 
   input#img-1:checked~.nav-dots label#img-dot-1,
@@ -547,7 +537,7 @@ input#img-5:checked~.nav-dots label#img-dot-5 {
   input#img-3:checked~.nav-dots label#img-dot-3,
   input#img-4:checked~.nav-dots label#img-dot-4,
   input#img-5:checked~.nav-dots label#img-dot-5 {
-    background: rgba(0, 0, 0, 0.8);
+    background: #be391b;
   }
 
   .container__img {
