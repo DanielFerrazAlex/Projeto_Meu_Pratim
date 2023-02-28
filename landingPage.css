@@ -240,6 +240,15 @@ body {
   text-align: center;
 }
 
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lista-itens {
+  list-style: none;
+}
+
 .imagensRodape{
   display: flex;
   justify-content: center;
