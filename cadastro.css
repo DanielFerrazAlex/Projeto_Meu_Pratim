@@ -84,6 +84,6 @@ input{
 .rodape{
     bottom: 0;
 }
-
-
-@import url('pedido.html');
+.rodape p{
+    font-size: 12px;
+}
