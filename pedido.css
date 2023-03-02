@@ -93,7 +93,7 @@ body {
 }
 
 .div-slider {
-  display: flex;
+  display: none;
   justify-content: center;
   width: 85vw;
   text-align: center;

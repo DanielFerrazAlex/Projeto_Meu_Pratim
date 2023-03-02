@@ -1,90 +1,89 @@
+.dropdown {
+    position: absolute;
+      display: flex;
+      width: 2rem;
+      height: 2rem;
+      left: 2rem;
+  }
+  
+  .dropdown:hover .menu-hidden {
+    background-color: var(--amarelo);
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    height: 3rem;
+    font-size: 18px;
+    top: .5rem;
+  }
+  
+  .menu {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  
+  .menu-hidden {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-width: 3.1rem;
+    width: 2rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.527);
+    z-index: 3;
+  }
+  
+  .menu-hidden a {
+    margin: .5rem;
+    text-transform: uppercase;
+    color: #000;
+  }
+
 main {
     display: flex;
-    height: 500px;
     align-items: center;
     justify-content: center;
+    height: 35rem;
 }
 
-.divform {
-    top: 160px;
+.form_container{
+    background-color: #FFDC73;
     display: flex;
-    position: absolute;
+    flex-direction: column;
+    height: 22rem;
+    width: 20rem ;
+    border-radius: 2rem;
 }
 
-form {
-    height: 320px;
-    width: 680px;
+label{
+    margin: .7rem 8rem;
+    font-family: 'Josefin Sans';
 }
 
-.divcadastro {
-    top: 15px;
-    display: flex;
-    position: relative;
-    justify-content: center;
+input{
+    border-radius: .5rem;
+    border: none;
+    padding: .3rem ;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
-.divnome {
-    top: 45px;
-    width: 675px;
-    display: inline-grid;
-    position: absolute;
+.title_form{
+    margin-top: 1rem;
+    margin-left: 5.7rem;
+    font-family: 'Josefin Sans';
 }
 
-.divemail {
-    top: 90px;
-    width: 325px;
-    display: inline-grid;
-    position: absolute;
-}
-
-.divconfemail {
-    top: 90px;
-    left: 350px;
-    width: 325px;
-    display: inline-grid;
-    position: absolute;
-}
-
-.divdtnas {
-    top: 135px;
-    display: inline-grid;
-    position: absolute;
-}
-
-.divgen {
-    top: 135px;
-    left: 230px;
-    position: absolute;
-}
-
-.divcel {
-    top: 135px;
-    left: 478px;
-    position: absolute;
-}
-
-.ddd {
-    width: 15px;
-}
-
-.senha {
-    top: 185px;
-    width: 325px;
-    display: inline-grid;
-    position: absolute;
-}
-
-.senhaconf {
-    top: 185px;
-    left: 350px;
-    width: 325px;
-    display: inline-grid;
-    position: absolute;
+.name_input{
+    margin-top: 1rem;    
 }
 
 .endereco {
-    top: 230px;
-    width: 675px;
-    display: inline-grid;
-    position: absolute;
 }
+
+.rodape{
+    bottom: 0;
+}
+
+
+@import url('pedido.html');
